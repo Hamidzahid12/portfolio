@@ -1,0 +1,325 @@
+#head
+{
+    background-color: black;
+    margin: 0%;
+    
+ 
+}
+.nav{
+    position: fixed;
+}
+.nav > li > a {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav > li > a:hover{
+    color: red;
+    border-bottom: 1px solid white;
+    padding-bottom: 1px;
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+h1{
+    color: white;
+    font-family:'Sacramento',cursive; ;
+    letter-spacing: 1px;
+
+}
+p{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-size: 10px;
+}
+#About{
+    background: linear-gradient(rgba(0,0,0,0.95),rgba(0,0,0,0.95));
+    text-align:center;
+    
+
+}
+ span{ 
+    color: red;
+}
+.atext > h2{
+    
+    margin-bottom:30px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Times New Roman';
+    text-transform:uppercase;
+    color:white;
+    text-align: center;
+
+
+
+     
+}
+.atext > p{
+    font-size:15px;
+    font-family: serif;
+    text-align: center;
+    text-align:justify;
+    padding: 1rem;
+    color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        red, 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+
+
+}
+.img1{
+    border-radius: 40px;
+  background: linear-gradient(to right, red, white);
+  padding: 5px;
+}
+#skill{
+
+    background-color: black;
+    text-align: center;
+    display: block;
+}
+.line{
+    color:white;
+    font-family: 'Times New Roman';
+    text-transform: uppercase;
+    font-size:50px;
+    margin-top: 15px;
+   
+
+
+
+}
+h3{
+    text-align:left;
+    color: red;
+    font-size: 27px;
+    font-family: 'Times New Roman';
+   
+}
+.list{
+    color: white;
+    text-align: justify;
+    font-size: 17px;
+    font-family:  serif;
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        red, 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+      padding-right: 20px;
+    
+    
+    
+}
+hr {
+    
+    border: dotted white 7px;
+    border-bottom: none;
+    width:50%;
+    margin-left: 23%; 
+    margin-top:7%;
+    margin-bottom:3%;
+    
+}
+#projects{
+    background: linear-gradient(rgba(0,0,0,0.95),rgba(0,0,0,0.95));
+
+}
+.card{
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        red, 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+      padding-right: 20px;
+    
+    background-color: black;
+}
+.btn1{
+    border: 1px solid white;
+}
+.link{
+    color: red;
+    text-decoration: none;
+}
+#contact{
+    background-color: black;
+}
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    color: white
+    ;
+}
+
+.contact-title h2 {
+    font-size: 2rem;
+    font-family: 'Times New Roman';
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 20px;
+   
+}
+.contact-subtitle h4 {
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact-button .btn {
+    display: block;
+    border: 2px solid red;
+    padding: 15px 35px;
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+.contact-button :hover{
+    border: 1px solid white;
+    
+}
+.p1{
+    font-size: 50px;
+    color: white;
+    font-family: 'Times New Roman';
+}
+.footer {
+    background: linear-gradient(rgba(0,0,0,0.95),rgba(0,0,0,0.95));
+    padding: 50px 0 20px;
+    text-align: center;
+    color: #F3F4F6;
+    width: 100%;
+}
+.footer-link {
+    text-decoration: none;
+    color: white;
+
+
+}
+.copyright {
+    margin-left: 10px;
+    font-size: 10px;
+    color: white;
+    padding-top: 40px;
+    margin-right: 70%;
+}
+.fa-brands{
+    font-size: 40PX;
+    padding-right: 30PX;
+    background-color: transparent;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px){
+    .nav >li {
+        padding: 0 20px;
+    }
+    .nav > li > a{
+        font-size: 16px;
+    }
+    .atext > p{
+        font-size: 17px;
+    }
+    .text > h1{
+        font-size: 80px;  
+        font-weight: bold;
+    
+    }
+    .text > p{
+        font-size: 20px ;
+        }
+       
+        
+   }
+
+   
+
+  @media screen and (min-width: 992px) {
+   .text{
+    margin-top:400px;
+   } 
+    .nav > li {
+     padding: 0 53px;
+    }
+    .nav > li > a{
+        font-size: 17px;
+        text-transform: uppercase;
+    }
+    .text > h1{
+        font-size: 130px;  
+        font-weight: bold;
+    
+    }
+    .text > p{
+    font-size: 25px ;
+    }
+    img{
+      height: 280px;
+    }
+    .atext >p{
+        font-size:20px;
+    }
+    .atext > h2{
+        text-align:left;
+        font-size: 40px;
+    }
+    
+    h3{
+        padding-top:30px;
+    }
+    .contact-container {
+        padding-top: 50px;
+    }
+    .contact-title h2 {
+        font-size: 4rem;
+    
+    }
+
+   
+    
+    
+    
+}
